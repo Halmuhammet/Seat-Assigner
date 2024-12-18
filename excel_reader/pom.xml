@@ -1,0 +1,29 @@
+<project>
+    <!-- Basic Project Info -->
+    <groupId>com.example</groupId>      <!-- Your organization (like a package name) -->
+    <artifactId>excel_reader</artifactId> <!-- Your project's name -->
+    <version>1.0-SNAPSHOT</version>     <!-- Project version (SNAPSHOT = in development) -->
+    <modelVersion>4.0.0</modelVersion>
+    <!-- Java Version Settings -->
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source> <!-- Java version for code -->
+        <maven.compiler.target>1.8</maven.compiler.target> <!-- Java version for output -->
+    </properties>
+
+    <!-- Libraries Your Project Uses -->
+    <dependencies>
+        <!-- For Reading Excel Files -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>5.2.3</version>
+        </dependency>
+
+        <!-- For Logging -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.20.0</version>
+        </dependency>
+    </dependencies>
+</project>
