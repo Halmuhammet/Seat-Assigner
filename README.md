@@ -1,6 +1,8 @@
 # Seat-Assigner
+## Description
 In this project, I wanted to read an Excel file in Java just for fun. I ended up writing a program that assigns students random seat numbers. The program needs an Excel file to read the students names located at the first 2 columns (for first and last name). It then processes the input and writes the students' names and their seating numbers to a .txt output file.
 
+## API and Dependency Management
 To manage the API libraries and dependencies needed for this project, I used Maven.
 
 pom.xml file is needed for Maven to know which dependencies to download.
